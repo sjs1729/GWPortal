@@ -26,9 +26,10 @@ st.markdown(
     }
 
 
-    .css-163ttbj.e1fqkh3o11 {
+    .css-vk3wp9.e1akgbir11 {
         display: none !important;
     }
+
 
 
     </style>
@@ -41,7 +42,7 @@ np.set_printoptions(precision=3)
 tday = dt.datetime.today()
 
 c_1, c_2 = st.columns((8,4))
-c_2.image('growealth-logo_long.png', width=300)
+#c_2.image('growealth-logo_long.png', width=300)
 
 @st.cache_data()
 def get_mf_perf():
