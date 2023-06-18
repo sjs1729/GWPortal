@@ -30,7 +30,7 @@ st.markdown(
     }
 
 
-    .css-6qob1r.e1akgbir3 {
+    .css-vk3wp9.e1akgbir11 {
         display: none !important;
     }
 
