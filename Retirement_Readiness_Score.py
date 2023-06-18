@@ -40,7 +40,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 c_1, c_2 = st.columns((8,4))
-c_2.image('growealth-logo_long.png', width=300)
+#c_2.image('growealth-logo_long.png', width=300)
 
 
 
