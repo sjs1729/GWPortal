@@ -35,6 +35,9 @@ st.markdown(
         display: none !important;
     }
 
+    .css-vk3wp9.eczjsme11 {
+        display: none !important;
+    }
 
 
     </style>
