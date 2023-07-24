@@ -36,11 +36,6 @@ st.markdown(
 )
 c_1, c_2 = st.columns((8,4))
 
-st.set_page_config(
-    page_title="GroWealth Investments       ",
-    page_icon="nirvana.ico",
-    layout="wide",
-)
 
 st.markdown(
     """
