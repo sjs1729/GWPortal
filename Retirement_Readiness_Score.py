@@ -34,6 +34,13 @@ st.markdown(
         display: none !important;
     }
 
+    .css-vk3wp9.eczjsme11 {
+        display: none !important;
+    }
+    
+    .css-vk3wp9 {
+        display: none !important;
+    }
 
     </style>
     """,
@@ -459,7 +466,7 @@ if n_Retire_1 or n_Retire_2:
     user_inputs[3].markdown('<BR>',unsafe_allow_html=True)
 
 
-    placeholder_chart.plotly_chart(fig,config=config)
+    placeholder_chart.plotly_chart(fig,config=config,use_container_width=True)
 
 
     fig_1 = go.Figure(go.Indicator(
@@ -502,6 +509,6 @@ if n_Retire_1 or n_Retire_2:
 
     with user_inputs[3].container():
         #placeholder_header_1.markdown('<p style="font-size:20px;font-weight:bold;text-align:center;vertical-align:middle;color:brown;margin:0px;padding:0px"><u>Retirement Score</u></p><BR>', unsafe_allow_html=True)
-        placeholder_score.plotly_chart(fig_1,config=config)
+        placeholder_score.plotly_chart(fig_1,config=config,use_container_width=True)
     #placeholder_score.markdown(":blue[ Retirement Score : {} %]".format(retirement_score))
     #placeholder_fund.markdown('<p style="font-size:16px;font-weight: normal;text-align:center;vertical-align:middle;color:blue;margin:0px;padding:0px">Optimised Fund : {}</p>'.format(display_amount(opt_corpus)), unsafe_allow_html=True)
