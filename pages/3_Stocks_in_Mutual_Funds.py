@@ -32,7 +32,7 @@ st.markdown(
         display: none !important;
     }
 
-    .css-vk3wp9.eczjsme11 {
+    .css-vk3wp9 {
         display: none !important;
     }
 

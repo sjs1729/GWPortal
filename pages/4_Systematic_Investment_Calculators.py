@@ -34,6 +34,10 @@ st.markdown(
         display: none !important;
     }
 
+    .css-vk3wp9 {
+        display: none !important;
+    }
+
     </style>
     """,
     unsafe_allow_html=True
